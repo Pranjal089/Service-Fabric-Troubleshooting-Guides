@@ -132,7 +132,7 @@ Service Fabric clusters running 6.5 CU3 or later (version 6.5.658.9590 or higher
 
     * net stop FabricHostSvc
 
-There is a race condition where sometimes `FabricInstallerService.exe` is stuck in a crashing loop. If this is the case first launch `Services.msc` and identify 3 Services:
+There is a race condition where sometimes `FabricInstallerService.exe` is stuck in a crashing loop. If this is the case first launch `Services.msc` and identify 3 Services: 
 
 - FabricInstallerService
 - FabricHostService
